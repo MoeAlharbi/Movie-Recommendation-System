@@ -10,9 +10,17 @@ This project implements a **Movie Recommendation System** using collaborative fi
 - **Visualizations:** Heatmaps, histograms, and boxplots to analyze data and results.
 
 ## Dataset
-The project uses the [Kaggle Movies Metadata](https://www.kaggle.com/rounakbanik/the-movies-dataset) dataset, which contains:
-- Movies metadata (genres, runtime, popularity, etc.).
-- User ratings.
+
+This project uses the [MovieLens Dataset](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset), which contains 20 million ratings and 465,000 tag applications applied to 27,000 movies by 138,000 users.
+
+### Steps to Download the Dataset
+
+1. **Visit the Dataset Page**:
+   - Go to the [MovieLens Dataset on Kaggle](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset).
+
+2. **Download the Dataset**:
+   - Click on the **Download** button on the Kaggle page.
+   - Extract the downloaded `.zip` file into the `data/` folder of this project.
 
 ## Project Structure
 - **data/**: Contains the movies and ratings datasets.
